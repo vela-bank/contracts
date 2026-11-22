@@ -1,0 +1,7 @@
+# CODEOWNERS de vela-bank/contracts
+# Revisión por defecto de todo el repositorio.
+# Ver docs/architecture/repo-map.md §5 y docs/governance/org-setup.md §2.
+#
+# Cuando los equipos de la organización existan, reemplazar el usuario por:
+#   * @vela-bank/platform
+* @GeronimoAv
