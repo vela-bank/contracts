@@ -43,8 +43,8 @@ contracts → productor → consumidor → frontend → gitops → staging → p
 
 ## Estado
 
-Esqueleto inicial. Todavía no hay CI ni las especificaciones migradas; llegan en los próximos
-slices de la tarea 1.4 del
+Esqueleto inicial con licencia y `CODEOWNERS`. Todavía no hay CI ni las especificaciones
+migradas; llegan en los próximos slices de la tarea 1.4 del
 [plan de acción](https://github.com/vela-bank/docs/blob/main/docs/action-plan.md).
 
 ## Documentación relacionada
@@ -55,4 +55,4 @@ slices de la tarea 1.4 del
 
 ## Licencia
 
-Apache-2.0. El archivo `LICENSE` se añade en el siguiente slice.
+Apache-2.0. Ver [`LICENSE`](LICENSE).
