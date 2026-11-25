@@ -13,13 +13,15 @@ servicios antes de que exista el código que los implementa. La decisión está 
 | `openapi/` | Especificaciones OpenAPI 3.1 de las APIs síncronas. |
 | `events/` | Esquemas de eventos (AsyncAPI/JSON Schema) y el sobre común. |
 
-Las especificaciones v0 todavía viven en
-[`docs/contracts/`](https://github.com/vela-bank/docs/tree/main/docs/contracts) y se migran acá en
-el siguiente slice de la tarea 1.4:
+Las especificaciones OpenAPI v0 ya viven en este repositorio:
 
-- `openapi/core-banking-v0.yaml`: clientes, cuentas, movimientos y endpoints internos.
-- `openapi/transfers-v0.yaml`: transferencias con `Idempotency-Key`.
-- `events/events-v0.md`: sobre de eventos y tipos versionados.
+- [`openapi/core-banking-v0.yaml`](openapi/core-banking-v0.yaml): clientes, cuentas, movimientos y
+  endpoints internos.
+- [`openapi/transfers-v0.yaml`](openapi/transfers-v0.yaml): transferencias con `Idempotency-Key`.
+
+Los eventos v0 todavía viven en
+[`docs/contracts/events-v0.md`](https://github.com/vela-bank/docs/blob/main/docs/contracts/events-v0.md)
+y se migran a `events/` en el siguiente slice de la tarea 1.4.
 
 ## Cómo se usa
 
@@ -43,8 +45,8 @@ contracts → productor → consumidor → frontend → gitops → staging → p
 
 ## Estado
 
-Esqueleto inicial con licencia y `CODEOWNERS`. Todavía no hay CI ni las especificaciones
-migradas; llegan en los próximos slices de la tarea 1.4 del
+Las especificaciones OpenAPI v0 están migradas. Todavía no hay CI ni los esquemas de eventos;
+llegan en los próximos slices de la tarea 1.4 del
 [plan de acción](https://github.com/vela-bank/docs/blob/main/docs/action-plan.md).
 
 ## Documentación relacionada
